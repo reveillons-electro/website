@@ -120,7 +120,7 @@ a.arrow {
  }
  
  .carousel-caption p {
-  max-height: 20vh;
+  max-height: 15vh;
   overflow: hidden;
   text-overflow: ellipsis;
  }
