@@ -19,9 +19,13 @@ $(document).ready(function(){
       }); // end window scroll
    });  // end section function
    
-   // carousel
-   $('.carousel').carousel({
+   	 // carousel
+	 $('.carousel').carousel({
 	   interval: 8000
 	 })
+
+	 //navbar
+	 $('body').scrollspy({ target: '#navbar' })
+})
 	 
 }); // close out script
