@@ -18,4 +18,10 @@ $(document).ready(function(){
         $scroll.css({ backgroundPosition: coords });    
       }); // end window scroll
    });  // end section function
+   
+   // carousel
+   $('.carousel').carousel({
+	   interval: 8000
+	 })
+	 
 }); // close out script
