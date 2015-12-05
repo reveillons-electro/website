@@ -118,6 +118,12 @@ a.arrow {
 .carousel {
 	max-width:800px;
  }
+ 
+ .carousel-caption p {
+  max-height: 30vh;
+  overflow: hidden;
+  text-overflow: ellipsis;
+ }
   
  .infos-details {
   	padding-top : 40px;
